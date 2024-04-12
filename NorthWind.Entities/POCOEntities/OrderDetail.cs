@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace NorthWind.Entities.POCOEntities
 {
-	
-	 public class OrderDetail
+
+	public class OrderDetail
 	{
 		public int OrderId { get; set; }
 
@@ -17,6 +17,6 @@ namespace NorthWind.Entities.POCOEntities
 
 		public short Quantity { get; set; }
 
-		public Order  { get; set; }
+		public Order order { get; set; }
 	}
 }
