@@ -1,4 +1,5 @@
-﻿using System;
+﻿using NorthWind.Entities.Enums;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -19,5 +20,11 @@ namespace NorthWind.Entities.POCOEntities
 		public string ShipCountry { get; set; }
 
 		public string ShipPostalCode { get; set; }
+
+		public DiscountType DiscountType { get; set; }
+
+		public double Discount { get; set; }
+
+		public ShippingType ShippingType { get; set;}
 	}
 }

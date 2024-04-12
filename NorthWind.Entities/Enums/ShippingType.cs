@@ -4,11 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NorthWind.Entities.POCOEntities
+namespace NorthWind.Entities.Enums
 {
-	public class Product
+	public class ShippingType
 	{
-		public int Id { get; set; }
-		public string Name { get; set; }
+		Sea, Air, Rail, Road
 	}
 }
