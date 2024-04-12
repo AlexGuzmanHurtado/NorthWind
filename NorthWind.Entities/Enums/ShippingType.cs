@@ -8,6 +8,8 @@ namespace NorthWind.Entities.Enums
 {
 	public class ShippingType
 	{
+		public static ShippingType Road { get; set; }
+
 		Sea, Air, Rail, Road
 	}
 }

@@ -9,6 +9,8 @@ namespace NorthWind.Entities.POCOEntities
 {
 	public class Order
 	{
+		public static int id;
+
 		public int Id { get; set; }
 		public string CustomerId { get; set; }
 		public DateTime OrderDate { get; set; }
