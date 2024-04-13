@@ -27,6 +27,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presenters", "Presenters", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NorthWind.WebExceptionsPresenter", "NorthWind.WebExceptionsPresenter\NorthWind.WebExceptionsPresenter.csproj", "{F19EFD5B-819B-4118-B6DD-579B949122C8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NorthWind.WebApi", "NorthWind.WebApi\NorthWind.WebApi.csproj", "{9B57A239-1C91-41C8-8570-54E2123EED73}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{F19EFD5B-819B-4118-B6DD-579B949122C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F19EFD5B-819B-4118-B6DD-579B949122C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F19EFD5B-819B-4118-B6DD-579B949122C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B57A239-1C91-41C8-8570-54E2123EED73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B57A239-1C91-41C8-8570-54E2123EED73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B57A239-1C91-41C8-8570-54E2123EED73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B57A239-1C91-41C8-8570-54E2123EED73}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -70,6 +76,7 @@ Global
 		{F230F56A-FF11-4849-99A7-32F2B5F46968} = {503F5B68-42D8-4FDF-A18A-6FC2A344D3E3}
 		{AFA5BE00-554D-4D43-B44C-19F81F7FF838} = {503F5B68-42D8-4FDF-A18A-6FC2A344D3E3}
 		{F19EFD5B-819B-4118-B6DD-579B949122C8} = {AFA5BE00-554D-4D43-B44C-19F81F7FF838}
+		{9B57A239-1C91-41C8-8570-54E2123EED73} = {D3AB14E9-21BD-4701-94B6-F3837094EBF4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {005862C5-440F-464B-9781-99043CECFF99}
